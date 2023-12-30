@@ -15,7 +15,7 @@ jobs:
       - name: build
         run: |
           docker login ghcr.io -u psubiantogmail -p ${{ secrets.DOCKER_PAT }}
-          docker build --file ./docker/app_server/Dockerfile -t ghcr.io/psubiantogmail/home-ghcr:latest .
+          docker build --file ./Dockerfile -t ghcr.io/psubiantogmail/home-ghcr:latest .
       - name: publish
         run: |
           docker push ghcr.io/psubiantogmail/home-ghcr:latest
