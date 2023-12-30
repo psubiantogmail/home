@@ -1,6 +1,6 @@
 name: Publish image to Github Hub and deploy to Azure
 on:
-  [workflow_dispatch]
+  [push]
 
 env:
   AZURE_WEBAPP_NAME: anvil-home
