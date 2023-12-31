@@ -2,3 +2,5 @@ anvil-app-server==1.10.1
 beautifulsoup4==4.11.2
 epub_conversion==1.0.15
 openpyxl==3.1.2
+pyodbc==5.0.1
+xml_cleaner==2.0.4
